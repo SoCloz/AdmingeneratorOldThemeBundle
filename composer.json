@@ -1,6 +1,8 @@
 {
     "name": "cedriclombardot/admingenerator-oldtheme-bundle",
     "description": "This bundle is the old theme for cedriclombardot/admingenerator-generator-bundle",
+    "keywords": ["admin", "generator", "yaml", "theme"],
+    "type": "symfony-bundle",
     "require": {
         "cedriclombardot/admingenerator-generator-bundle": "*"
     },
