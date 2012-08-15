@@ -2,6 +2,9 @@
     "name": "cedriclombardot/admingenerator-oldtheme-bundle",
     "description": "This bundle is the old theme for cedriclombardot/admingenerator-generator-bundle",
     "keywords": ["admin", "generator", "yaml", "theme"],
+    "homepage": "http://symfony2admingenerator.org/",
+    "license": "MIT",
+    "minimum-stability": "dev",
     "type": "symfony-bundle",
     "require": {
         "cedriclombardot/admingenerator-generator-bundle": "*"
