@@ -1,0 +1,20 @@
+{
+    "name": "cedriclombardot/admingenerator-oldtheme-bundle",
+    "description": "This bundle is the old theme for cedriclombardot/admingenerator-generator-bundle",
+    "require": {
+        "cedriclombardot/admingenerator-generator-bundle": "*"
+    },
+    "suggest": {
+	"cedriclombardot/admingenerator-activeadmintheme-bundle": "The rails admin theme"
+    },
+    "authors": [
+        {
+            "name": "Cedric LOMBARDOT",
+            "email": "cedric.lombardot@gmail.com"
+        }
+    ],
+    "target-dir": "Admingenerator/OldThemeBundle",
+    "autoload": {
+        "psr-0": { "Admingenerator\\OldThemeBundle": "" }
+    }
+}
