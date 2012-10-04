@@ -8,6 +8,7 @@
         {% for rows in builder.fieldsets[fieldset] %}
     <div class="form_row">
                 {% for field in rows %}
+                {{ echo_if ("'" ~ field ~ "' in form|keys") }}
                 {% if builder.Columns[field].credentials %}
                       {{ echo_if_granted(builder.Columns[field].credentials, builder.ModelClass) }}
                 {% endif %}
@@ -37,6 +38,7 @@
                 {% if builder.Columns[field].credentials %}
                     {{ echo_endif () }}
                 {% endif %}
+                {{ echo_endif () }}
                 {% endfor -%}
             </div>
         {% endfor -%}
